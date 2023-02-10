@@ -2151,6 +2151,8 @@ html.cl-loaded .home-content__main {
  * ------------------------------------------------------------------- */
 .about-stats {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .stats__col {
