@@ -1439,7 +1439,7 @@ input::-moz-focus-inner {
 
 .header-nav h3 {
   font-family: "montserrat-semibold", sans-serif;
-  font-size: 11px;
+  font-size: 1.6rem;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
@@ -1450,6 +1450,7 @@ input::-moz-focus-inner {
 
 .header-nav p {
   margin-bottom: 2.7rem;
+  font-size: 14px;
 }
 
 .header-nav__content {
@@ -1475,6 +1476,13 @@ input::-moz-focus-inner {
 .header-nav__list a,
 .header-nav__list a:visited {
   color: #ffffff;
+}
+
+.header-nav__list a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #39b54a;
 }
 
 .header-nav__social {
@@ -1752,7 +1760,7 @@ input::-moz-focus-inner {
 }
 
 .home-content__main {
-  padding-top: 24rem;
+  padding-top: 20rem;
   position: relative;
 }
 
@@ -2174,9 +2182,6 @@ html.cl-loaded .home-content__main {
   line-height: 1;
   color: #ffffff;
   position: relative;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .stats h5 {
@@ -2299,7 +2304,7 @@ html.cl-loaded .home-content__main {
   padding-top: 16.2rem;
   padding-bottom: 13.2rem;
   background-color: #ffffff;
-  color: #757575;
+  color: #454545;
   position: relative;
 }
 
@@ -2677,7 +2682,7 @@ html.cl-loaded .home-content__main {
  * ------------------------------------------------------------------- */
 .s-contact {
   background-color: #151515;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/hero-bg.webp");
   background-repeat: no-repeat;
   background-position: center, center;
   padding-top: 15rem;
@@ -2800,31 +2805,31 @@ html.cl-loaded .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-  color: #4f4f4f;
+  color: #a1a1a1;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-  color: #4f4f4f; /* Firefox 18- */
+  color: #a1a1a1; /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-  color: #4f4f4f; /* Firefox 19+ */
+  color: #a1a1a1; /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-  color: #4f4f4f;
+  color: #a1a1a1;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-  color: #4f4f4f !important;
+  color: #a1a1a1 !important;
 }
 .contact-primary,
 .contact-secondary {
